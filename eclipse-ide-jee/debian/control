@@ -1,0 +1,13 @@
+Source: eclipse-ide-jee
+Section: devel
+Priority: optional
+Maintainer: Oleg Kishinskiy <threew82@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: http://eclipse.org
+
+Package: eclipse-ide-jee
+Architecture: amd64
+Depends: ${misc:Depends}, default-jdk | oracle-java7-installer | oracle-java8-installer
+Description: Eclipse IDE for Java EE Developers
+ Tools for Java developers creating Java EE and Web applications, including a Java IDE, tools for Java EE, JPA, JSF, Mylyn, EGit and others.

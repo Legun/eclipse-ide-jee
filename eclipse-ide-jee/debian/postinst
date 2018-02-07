@@ -1,0 +1,17 @@
+#!/bin/bash
+
+set -e
+
+#!/bin/bash
+cd /opt/
+
+## Extract the package
+sudo tar xf /opt/eclipse*
+
+## Rename the directory
+sudo mv /opt/eclipse /opt/eclipse-ide-java
+
+## Remove  the tar.gz package
+sudo rm /opt/eclipse-jee*
+
+##DEBHELPER##
